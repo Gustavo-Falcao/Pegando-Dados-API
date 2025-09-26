@@ -8,6 +8,7 @@ export default function Card({usuario}) {
                 <p>Localização: {usuario.address.geo.lat}/{usuario.address.geo.lng}</p>
                 <p>Telefone: {usuario.phone}</p>
                 <p>Website: {usuario.website}</p>
+                <p>Empresa: {usuario.company.name}/{usuario.company.catchPhrase}/{usuario.company.bs}</p>
             </li>
     )
 }
